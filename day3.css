@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.que{
+    font-size: 20px;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.paragraph{
+    font-family: 'Lobster', cursive;
+}
+
+.click{
+    color: white;
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 1%;
+    margin: 20px;
+    transition: width 4s linear;
+}
+
+.click:hover{
+    color: red;
+    background-color: yellowgreen;
+    width: 300px;
+    height: 150px;
+}
+
+.circle{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.mediac{
+    width: 500px;
+    height: 300px;
+    color: white;
+    background-color: darkgoldenrod;
+    border:2px solid darkgreen ;
+    margin: 20px;
+   font-size: 20px;
+   
+}
+
+@media  (max-width:800px) {
+
+    .mediac{
+        
+        width: 250px;
+        height: 250px;
+        border-radius: 20%;
+        background-color: hotpink;
+        border: 5px dotted black;
+
+    }
+
+}
+
+.animation-box{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(11, 184, 23);
+    border: 2px solid orangered;
+    margin: 20px;
+    animation: ravi 8s infinite;
+    border-radius: 15px;
+    
+}
+
+@keyframes ravi {
+    0%{
+        background-color: rgb(11, 184, 23);
+        border: 2px solid orangered;
+    }
+    20%{
+        background-color: rgb(184, 11, 11);
+        border: 2px solid rgb(0, 0, 0);
+    }
+    40%{
+        background-color: rgb(201, 218, 216);
+        border: 2px dashed rgb(34, 0, 255);
+    }
+
+    60%{
+        background-color: rgb(69, 11, 184);
+        border: 2px solid rgb(244, 0, 17);
+    }
+
+    80%{
+        background-color: rgb(248, 244, 7);
+        border: 10px dotted rgb(0, 255, 38);
+    }
+    100%{
+        background-color: rgb(207, 23, 167);
+        border: 4px double rgb(0, 247, 255);
+    }
+}
+
