@@ -1,0 +1,211 @@
+.header1{
+    background-image: url(./planet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerc1{
+    text-align: center;
+    padding: 20px;
+}
+
+.prep{
+    color: white;
+}
+
+.btn{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    color: dodgerblue;
+    border-radius: 10px;
+}
+
+.header2{
+    background-image: url(./pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px;
+}
+
+.buttons{
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.btnn{
+    color: white;
+    background-color: indianred;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin: 1.5px;
+}
+
+.box{
+    display: inline-flex;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+    border-color: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.enroll{
+    padding: 13px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+    color: white;
+    background-color: #00a5ec;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .enroll{
+        padding: 13px;
+        padding-left: 55px;
+        padding-right: 55px;
+        border: none;
+        color: white;
+        background-color: #d0ec00;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box{
+        display: inline;
+        flex-direction: row;
+        
+    }
+    
+    .card{
+        width: 200px;
+        height: 200px;
+        background-color: crimson;
+        border-radius: 20px;
+        border-color: none;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .enroll{
+        padding: 13px;
+        padding-left: 55px;
+        padding-right: 55px;
+        border: none;
+        color: white;
+        background-color: #ec00d0;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+}
+
+.trans {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    transition: all 2s ;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.trans:hover{
+    background-color: #00a5ec;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    font-size: 27px;
+}
+
+.transdiv{
+    margin: 50px;
+}
+
+.transform{
+    background-color: rgb(62, 23, 112);
+    color: white;
+    width: 100px;
+    height: 100px;
+    transform: translate(30px , 30px) rotate(25deg) ;
+
+}
+
+.transform:hover{
+    background-color: rgb(62, 23, 112);
+    color: white;
+    width: 100px;
+    height: 100px;
+    transform: translate(30px , 30px) rotate(160deg) ;
+    transition-duration: 4s;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+    text-align: center;
+    
+}
+
+.grid1{
+    background-color: darksalmon;
+    grid-column: 1;
+    grid-row: 6 / 7;
+
+}
+
+.grid2{
+    background-color: chartreuse;
+    grid-column: 2;
+    grid-row: 5 / 7;
+}
+
+.grid3{
+    background-color: darksalmon;
+    grid-column: 3;
+    grid-row: 4 / 7;
+}
+
+
+.grid4{
+    background-color: chartreuse;
+    grid-column: 4;
+    grid-row: 3 / 7;
+}
+
+.grid5{
+    background-color: darksalmon;
+    grid-column: 5;
+    grid-row: 2 / 7;   
+}
+
+.grid6{
+    background-color: chartreuse;
+    grid-column: 6;
+    grid-row: 1 / 7;
+    
+}

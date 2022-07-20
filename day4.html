@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+    <link rel="stylesheet" href="day4.css">
+</head>
+<body>
+    <h3>1. Create masterhead - add background image and put a text at the center , with button below it</h3> 
+    
+        <header class="header1">
+            <div class="headerc1">
+                <h1 class="prep">PrepBytes</h1>
+                <button class="btn">Know More</button>
+            </div>
+        </header>
+    <h3>2. Create header -- left side will have logo and right side will have 4 button</h3> 
+    
+    <header class="header2">
+        <div class="logo">
+            <img src="./logo.jpg">
+        </div>
+        <div class="buttons">
+            <button class="btnn">About</button>
+            <button class="btnn">Explore</button>
+            <button class="btnn">Contact</button>
+            <button class="btnn">Home</button>
+        </div>
+    </header>
+    <h3>3. Create 3 cards of height & width 200 px with texts in it , the card should be horizontally placed in web view and vertically in mobile view</h3>
+    
+        <div class="box">
+            <div class="card"> Here card-1 of height & width 200 px with texts in it and border border-radius 20px, the card should be horizontally placed in web view and vertically in mobile view.</div>
+            <div class="card">Here card-2 of height & width 200 px with texts in it and border border-radius 20px, the card should be horizontally placed in web view and vertically in mobile view.</div>
+            <div class="card">Here card-3 of height & width 200 px with texts in it and border border-radius 20px, the card should be horizontally placed in web view and vertically in mobile view.</div>
+        </div><br><br>
+    <h3>4. Replicate the button on Masthead of PrepBytes, Change the background color of button for mobile view and ipad</h3>
+    <ul>background color in different views as below
+        <li>web view (width: 100vw): skyblue</li>
+        <li>ipad view (width: <=786px): yellowishgreen</li>
+        <li>mobile view (width: <=480px): pink</li>
+     </ul>	
+    
+        <button class="enroll">Enroll now</button>
+
+    <h3>5. Write code to show implementation of flex</h3>	
+    
+        <div>
+            <div>
+                <pre>
+                    .box{
+                        display: inline-flex;
+                    }
+                    
+                    .card{
+                        width: 200px;
+                        height: 200px;
+                        color: white;
+                        background-color: crimson;
+                        border-radius: 20px;
+                        border-color: none;
+                        padding: 10px;
+                        margin: 20px;
+                        font-size: 18px;
+                    }
+                    
+                </pre>
+            </div>
+            <div> Example: <br>
+                <div class="box">
+                    <div class="card">Implementation of flex , this cards are responsive in mobile view</div>
+                    <div class="card">Implementation of flex , this cards are responsive in mobile view</div>
+                    <div class="card">Implementation of flex , this cards are responsive in mobile view</div>
+                </div>
+            </div>
+        </div><br><br>
+
+    <h3>6. Show implementation of transition</h3>	
+
+    <div>
+        <div> 
+            <div class="trans">hover on me to get transition effect.</div>
+      </div>
+    </div><br>
+        
+        
+    <h3>7. Show implementation of transformation</h3>	
+    
+    <div>
+        <div class="transdiv">
+            <div class="transform">Hover on me for Transformation</div>
+        </div>
+    </div><br>
+
+    <h3>8. Show implementation of grid</h3>
+    
+    <div class="grid">
+        <div class="grid1">GridCard1</div>
+        <div class="grid2">GridCard2</div>
+        <div class="grid3">GridCard3</div>
+        <div class="grid4">GridCard4</div>
+        <div class="grid5">GridCard5</div>
+        <div class="grid6">GridCard6</div>
+    </div>
+        
+    <br><br>
+
+    <h3>9. What are CSS combinators</h3> 	
+    
+        <p>In css, A combinator is something that explains the relationship between the selectors.</p>
+        There are four different combinators in CSS:
+        <dl>
+            <dt>descendant selector (space)</dt>
+            <dd>The descendant selector matches all elements that are descendants of a specified element.</dd><br>
+            <dt>child selector (>)</dt>
+            <dd>The child selector selects all elements that are the children of a specified element.</dd><br>
+            <dt>adjacent sibling selector (+)</dt>
+            <dd>The adjacent sibling selector is used to select an element that is directly after another specific element.</dd><br>
+            <dt>general sibling selector (~)</dt>
+            <dd>The general sibling selector selects all elements that are next siblings of a specified element.</dd><br>
+          </dl><br>
+          
+    <h3>10. What are pseudo selectors in CSS</h3>
+    
+          <p>In css, pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions.</p>
+          <p>Example:-</p>
+          <dl>
+            <dt>:focus</dt>
+            <dd>Selects the input element that has focus</dd><br>
+            <dt>:hover</dt>
+            <dd>Selects links on mouse over</dd><br>
+            <dt>:first-child</dt>
+            <dd>Selects every <p> elements that is the first child of its parent</dd><br>
+            <dt>:last-child</dt>
+            <dd>Selects every <p> elements that is the last child of its parent</dd><br>
+            <dt>:nth-child(n)/dt>
+            <dd>Selects every <p> element that is the second child of its parent</dd><br>
+            <dt>::after</dt>
+            <dd>Insert content after every p element</dd><br>
+            <dt>::before</dt>
+            <dd>Insert content before every p element</dd><br>
+          </dl>
+</body>
+</html>
